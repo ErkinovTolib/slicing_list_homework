@@ -7,5 +7,5 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return list1[-n:]
-print(main([1,12,3,4,5,9,2],3))
+    return list1[::-n]
+print(main(['a', 1, 'b', 2, 'c', 3, 'd', 4],2))
